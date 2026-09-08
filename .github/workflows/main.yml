@@ -1,9 +1,9 @@
-name: my first CI
+name: My first CI
 on:
 push:
 jobs:
   hello:
   runs-on: ubuntu-latest
   steps:
-  name: say hello
-  run: echo "hello from CI/CD!"
+ - name: Say Hello
+  run: echo "Hello from CI/CD!"
